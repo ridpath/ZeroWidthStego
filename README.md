@@ -157,7 +157,7 @@ Troubleshooting
 Quick Reference Card
 -----------------------------------------------------------------------
 ```
-  python zzerowidthstego.py encode "msg" -o hidden.txt
+  python zerowidthstego.py encode "msg" -o hidden.txt
   python zerowidthstego.py decode -i hidden.txt
   python zerowidthstego.py analyze -i file.txt
   python zerowidthstego.py encode "msg" -o out.txt --carrier text.txt --scheme homoglyph_binary_utf8
