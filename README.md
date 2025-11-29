@@ -42,11 +42,15 @@ Built For:
 Key Features
 -----------------------------------------------------------------------
 
-- Multiple encoding schemes: binary, quaternary, octal, directional, homoglyph
-- Auto-detection with confidence scoring and flag heuristics
-- Embedding payloads invisibly in normal text or carrier files
-- Static analysis mode for zero width or homoglyph detection
-- Compatibility with stdin/stdout, CI, and Git hooks
+- 12+ Encoding Schemes: Binary, Quaternary, Octal, UTF-8, UTF-16, Directional, Homoglyph, and more
+- ZWSP Spacing Mode with full decode support
+- Homoglyph substitution with carrier aware injection
+- AES Encryption Layer (optional symmetric encryption)
+- Threshold-based Encoding/Decoding 
+- Advanced Brute-Force Mode with base switching and heuristics
+- Static and Dynamic Stego Detection Engine
+- Entropy & Flag Pattern Analysis (flag{}, picoctf{}, etc.)
+- Carrier file injection and extraction with cleanup control
 
 -----------------------------------------------------------------------
 Installation
